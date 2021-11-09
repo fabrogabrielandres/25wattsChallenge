@@ -1,0 +1,23 @@
+.carousel .thumbs{
+    display: none;
+    
+}
+
+.carousel .slider{
+    z-index: -1;
+}
+
+.carousel .control-dots{
+    position: absolute;
+    bottom: 10px;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.carousel .carousel-status{
+    display: none;
+
+}

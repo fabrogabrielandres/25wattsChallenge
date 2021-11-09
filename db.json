@@ -1,5 +1,29 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "slider": [
+    {
+      "title": "Sed ut perspiciatis unde omnis iste natus",
+      "subtitle": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doleremque",
+      "url": "https://uc8812862d9b744a66cc671a0821.previews.dropboxusercontent.com/p/thumb/ABWUG4cJCDIPMIN_N6dnOzrGI_1eoMxTPo59JZSI6XTe5p5G9IzgzoxgVZshgJpGAVuUdLKPRTP1nqBWFabh4iJcGfHntRx_inss5KWTCL2SP3ehc0yDJx6g83crmXSlaEtmprNFoXsdS1q_a7p5lC02TTsQPw9UiD2TOVHMc7gXyT_S0gaxX-QmknkGkhprjeLge265KIBZOM3zz3sJcgaxF6fsE0SM9ANw0HqHiVevH9Dagq0n2m15Tso8_v_hvQBVVg30HmoaQuxdJ0o40KHIBP3kIM90g4wGe3YGJJ_0D0sS9oOd3homKAfUh4aa3ggYlQFf0q79_wAW-QIupFhfzCkpKZUQMLLhlf9hcq6b8_wlzo9T9mzZKdIGvdW60WQJyih7e_hZuGvN75aQ3tnE/p.png?fv_content=true&size_mode=5"
+    },
+    {
+      "title": "Proin elementum massa et felis",
+      "subtitle": "sed ut perspiciatis unde omnis iste natus error sit valuptatem accusantium doleremque",
+      "url": "https://uc626242536baa9fab0e5dd40ecf.previews.dropboxusercontent.com/p/thumb/ABVODrLqME69AcBbAbvDFZueO3OYsq1iXCXa1p40VTxCu0mc3F83nQxhPWjtfBIzuXCe0c1-g275SfiV5k8LshLxp1RSqO4ktbLijemu3Iot3lLa-WSL9LYBgFszasOR0LzetlPfoFr2_5_YzbtuO4KAd9IUfxdbyPRWpjK9fO-uUQDX9GES-rnSe1JVbKNG4KIUdBIOfuJwFNNyO3OycaH48NKoQ3U7buh-7_4mpz00tYnK6EtBx3AExDM33RIyKdHb6TJYtwEMW5KCAIDQxvCiAU6OjRJ7PtR5htuAvGB27qieEE2MUZLteY6j9RaHVLGpkIwJ0ASKf6_F2CsaHlaKlveqw9UtzNt2KXheGF5xkcKM9t_UackeGYj7k1ytLuo/p.png"
+    },
+    {
+      "title":"Nulla rhoncus vuputate congue",
+      "subtitle":"aenean rutrum eros nec lacus vehicula, semper euismod dui aliquam.",
+      "url":"https://uc8e37efbad4d945f1270dc16d92.previews.dropboxusercontent.com/p/thumb/ABWABelzkdBvzCjLQ7oVIYp5WE4t0N-iQjJ87V52Edo0onso700WfrvleNyNpIgIVdlpH17poD0Ctt2Ekoe1932VgcCjOqqXLKZK8UElXu_Rf3dASNLi3eyC5tVqR6B4Hz7WAjzl7E5Kfb63qBcHuIqP8LhlwVceqG1w0I-tu3xDuQoTJ5kNMZEAZNVH2uU3HAKpil-ZXr1Ib8FTJkBfSN3eXhG-gvhucxU28Fa1t7JCUsZOkWxNiJ-mHEj0ikjrScwFvLHf5Pwfky_PCUmPFKLHvv4R0CT8RUWYgWRqdqFmMuCT31KSLGNnll9cUxnaC7e6IoaInw3hamZBfOBut2Vjyk6Nbv_UrZ10LH0eIc7sAt2e4Yeq2ax8fQR_g0rwvew/p.png"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }

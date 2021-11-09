@@ -1,20 +1,25 @@
 import React, { useEffect, useState } from 'react'
-import { NavLeft, NavRight, NavWrapper } from './styles'
+import { Button, NavLeft, NavRight, NavWrapper } from './styles'
 import { ReactComponent as Logo } from '../../assets/logo_25w.svg';
 
 export const NavBar = () => {
-
     const [positionY, setPositionY] = useState(0)
+    const [toggle, setToggle] = useState(false)
 
-    const ListenPosition= ()=>{
+    const burguerMenu = () => { console.log(toggle) }
+
+
+
+    const ListenPosition = () => {
         setPositionY(window.scrollY);
-    } 
+    }
 
     useEffect(() => {
-        window.addEventListener("scroll",ListenPosition)
-    }, [window.scrollY])
+        window.addEventListener("scroll", ListenPosition)
+    }, [])
 
     return (
+        <>
             <NavWrapper scroll={positionY}>
                 <NavLeft scroll={positionY}>
                     <Logo fill="#ffffff" stroke="#ffffff" />
@@ -42,5 +47,11 @@ export const NavBar = () => {
                     </ul>
                 </NavRight>
             </NavWrapper>
+            <button
+                onClick={() => console.log("hola")}
+            >
+                button
+            </button>
+        </>
     )
 }

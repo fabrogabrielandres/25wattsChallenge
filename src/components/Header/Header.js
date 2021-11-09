@@ -28,6 +28,7 @@ export const Header = () => {
                 data.map((dat, idx) => {
                     return (
                         <HeaderWrapper
+                            key={idx}
                             imageBackground={dat.url}
                         >
                             <HeaderTitle>

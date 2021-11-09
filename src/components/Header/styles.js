@@ -8,8 +8,8 @@ export const HeaderWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 `
+
 export const HeaderTitle = styled.div`
     margin-left: 101px;
     max-width: 570px; 
@@ -19,7 +19,12 @@ export const HeaderTitle = styled.div`
     span{
         font-size: 3.5rem;
         color: white;
+        @media (max-width:594px){
+         font-size:2rem;
+         margin-right:2rem
+        }
     }
+ 
 `
 export const HeaderSubTitle = styled.div`
     margin-left: 100px;
@@ -29,5 +34,9 @@ export const HeaderSubTitle = styled.div`
     span{
         font-size: 1.2rem;
         color: white;        
-    }
+        @media (max-width:594px){
+         font-size:0.7rem;
+         margin-right:4rem;
+        }
+    }       
 `

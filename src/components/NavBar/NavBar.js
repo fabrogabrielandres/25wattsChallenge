@@ -7,6 +7,7 @@ export const NavBar = () => {
     const [toggle, setToggle] = useState(false)
 
     const changeHiden = () => {
+        console.log(toggle);
         setToggle(!toggle)
     }
 
@@ -20,11 +21,17 @@ export const NavBar = () => {
     }, [])
 
     return (
-        <NavWrapper scroll={positionY}>
+        <NavWrapper scroll={positionY}
+        toggle={toggle}
+        >
             <NavLeft scroll={positionY}>
                 <Logo fill="#ffffff" stroke="#ffffff" />
             </NavLeft>
-
+            <Button
+                onClick={changeHiden}
+            >
+                hola
+            </Button>
             <NavRight scroll={positionY}>
                 <ul>
                     <li>
@@ -46,11 +53,7 @@ export const NavBar = () => {
                         Contact
                     </li>
                 </ul>
-                <button
-                    onClick={()=>console.log("hola")}
-                >
-                    hola
-                </button>
+
             </NavRight>
 
         </NavWrapper>

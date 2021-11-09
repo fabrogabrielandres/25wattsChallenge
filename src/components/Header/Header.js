@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import { HeaderWrapper } from './styles'
+import { HeaderTitle, HeaderWrapper } from './styles'
 import { Carousel } from 'react-responsive-carousel'
 import axios from 'axios'
 import "./slide.css"
@@ -30,10 +30,9 @@ export const Header = () => {
                         <HeaderWrapper
                             imageBackground={dat.url}
                         >
-                            <h1>hola</h1>
-                            <h1>hola</h1>
-                            <h1>hola</h1>
-                            <h1>hola</h1>
+                            <HeaderTitle>
+                                <h3>{dat.title}</h3>
+                            </HeaderTitle>                            
                         </HeaderWrapper>
                     )
                 })

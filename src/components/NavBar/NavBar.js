@@ -6,6 +6,10 @@ export const NavBar = () => {
     const [positionY, setPositionY] = useState(0)
     const [toggle, setToggle] = useState(false)
 
+    const changeHiden = () => {
+        setToggle(!toggle)
+    }
+
 
     const ListenPosition = () => {
         setPositionY(window.scrollY);
@@ -42,7 +46,13 @@ export const NavBar = () => {
                         Contact
                     </li>
                 </ul>
+                <button
+                    onClick={()=>console.log("hola")}
+                >
+                    hola
+                </button>
             </NavRight>
+
         </NavWrapper>
     )
 }

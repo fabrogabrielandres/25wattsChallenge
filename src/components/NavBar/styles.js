@@ -1,31 +1,9 @@
 import styled from "styled-components";
-
-
-export const NavRight = styled.div`
-    width: 50%;
-    
-    ul{
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        color: var(--unnamed-color-ffffff);
-    }
-    
-    li{
-        letter-spacing: 0px;
-        opacity: 1;
-    };  
- `
-
-export const NavLeft = styled.div`
-    width: 129px;
-    height: 30px;
-    `
-
 export const NavWrapper = styled.div`
-    position: absolute;
-    height: 100%;
-    max-width: 1366px;
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 1366px;
     height: 96px; 
     display: flex;
     flex-wrap: wrap;
@@ -38,10 +16,37 @@ export const NavWrapper = styled.div`
 `
 
 export const Button = styled.button`
-    background-color: var(--unnamed-color-e0752f);
-    max-width: 144px;
-    max-height: 48px;
-    border-radius: 12px;
-    
+        background-color: var(--unnamed-color-e0752f);
+        /* width: 150px; */
+        /* height: 100px; */
+        /* max-width: 144px; */
+        /* max-height: 48px; */
+        /* border-radius: 12px; */
 `
+
+export const NavRight = styled.div`
+    width: 50%;
+    
+    ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        color: var(--unnamed-color-ffffff);
+    }
+    
+    li{
+        cursor: pointer;
+        letter-spacing: 0px;
+        opacity: 1;
+    };  
+ `
+
+export const NavLeft = styled.div`
+    width: 129px;
+    height: 30px;
+    background-color: blue;
+`
+
+
+
 

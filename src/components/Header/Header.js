@@ -5,9 +5,6 @@ import { Carousel } from 'react-responsive-carousel'
 import axios from 'axios'
 import "./slide.css"
 
-
-
-
 export const Header = () => {
 
     const [data, setData] = useState([{}])
@@ -25,21 +22,22 @@ export const Header = () => {
             console.log(error);
         }
     }
-
-
     return (
-        <HeaderWrapper>
-            <Carousel className="main-slide" showArrows={true} onChange={onchange} onClickItem={onclick} >
-                {
-                    data.map((dat,idx) => {
-                        return (
-                            <div key={idx}>
-                                <img src={dat.url} alt="" />
-                            </div>
-                        )
-                    })
-                }
-            </Carousel>
-        </HeaderWrapper>
+        <Carousel className="main-slide" showArrows={true} onChange={onchange} onClickItem={onclick} >
+            {
+                data.map((dat, idx) => {
+                    return (
+                        <HeaderWrapper
+                            imageBackground={dat.url}
+                        >
+                            <h1>hola</h1>
+                            <h1>hola</h1>
+                            <h1>hola</h1>
+                            <h1>hola</h1>
+                        </HeaderWrapper>
+                    )
+                })
+            }
+        </Carousel>
     )
 }

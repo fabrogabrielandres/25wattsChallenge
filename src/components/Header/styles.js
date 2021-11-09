@@ -6,19 +6,28 @@ export const HeaderWrapper = styled.div`
     background: url(${props => props.imageBackground}) no-repeat center;
     background-size: cover;
     display: flex;
-    justify-content: start;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
 `
-
 export const HeaderTitle = styled.div`
     margin-left: 101px;
-    margin-bottom: 300px;
     max-width: 570px; 
     max-height: 115px; 
     text-align: left;
-    h3{
+    margin-bottom: 39px;
+    span{
         font-size: 3.5rem;
         color: white;
     }
-
+`
+export const HeaderSubTitle = styled.div`
+    margin-left: 100px;
+    max-width: 372px; 
+    max-height: 42px; 
+    text-align: left;
+    span{
+        font-size: 1.2rem;
+        color: white;        
+    }
 `

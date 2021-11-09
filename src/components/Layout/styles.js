@@ -10,8 +10,6 @@ max-height: 768px;
 
 
 export const NavLayout = styled.div`
-max-width: 1366px;
-max-height: 96px; 
 position: fixed;
 top: 0;
 right: 0;

@@ -1,12 +1,14 @@
 import React from 'react'
-import { Layout } from './components/Layout/Layout'
 import GlobalStyles from './styles/GlobalStyles'
+import { Layout } from './components/Layout/Layout'
 
 export const App = () => {
   return (
     <>
+      <GlobalStyles />
       <Layout />
-      <GlobalStyles/>
-  </>
+      
+     
+    </>
   )
 }

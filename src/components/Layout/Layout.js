@@ -5,16 +5,15 @@ import { GridLayout, HeaderLayout, LayoutContainer, NavLayout } from './styles'
 
 export const Layout = () => {
     return (
+        <>
+        <NavBar />
         <LayoutContainer>
-            <NavLayout>
-                <NavBar />
-            </NavLayout>
             <GridLayout>
-
                 <HeaderLayout>
                     <Header />
                 </HeaderLayout>
             </GridLayout>
         </LayoutContainer>
+    </>
     )
 }

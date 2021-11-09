@@ -23,7 +23,7 @@ export const Header = () => {
         }
     }
     return (
-        <Carousel className="main-slide" showArrows={true} onChange={onchange} onClickItem={onclick} >
+        <Carousel className="main-slide" showThumbs={false}>
             {
                 data.map((dat, idx) => {
                     return (

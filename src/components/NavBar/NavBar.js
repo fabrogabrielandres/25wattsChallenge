@@ -1,11 +1,25 @@
-import React from 'react'
-import { NavLeft, NavRight, NavWrapper,NavContainer } from './styles'
+import React, { useEffect, useState } from 'react'
+import { NavLeft, NavRight, NavWrapper } from './styles'
+import { ReactComponent as Logo } from '../../assets/logo_25w.svg';
 
 export const NavBar = () => {
+
+    const [positionY, setPositionY] = useState(0)
+
+    const ListenPosition= ()=>{
+        setPositionY(window.scrollY);
+    } 
+
+    useEffect(() => {
+        window.addEventListener("scroll",ListenPosition)
+    }, [window.scrollY])
+
     return (
-            <NavWrapper>
-                <NavLeft />
-                <NavRight>
+            <NavWrapper scroll={positionY}>
+                <NavLeft scroll={positionY}>
+                    <Logo fill="#ffffff" stroke="#ffffff" />
+                </NavLeft>
+                <NavRight scroll={positionY}>
                     <ul>
                         <li>
                             Home

@@ -22,9 +22,31 @@
       "title": "About us",
       "subtitle":"We Help Businesses",
       "paragraph": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
-    }
-  ,
-  "profile": {
-    "name": "typicode"
+    },
+    "service":{
+    "title": "Services",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida felis, id tempor ex. Suspendisse congue purus eu neque auctor, eget dictum ipsum facilisis. Sed scelerisque sodales lorem,'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida felis, id tempor ex. Suspendisse congue purus eu neque auctor, eget dictum ipsum facilisis. Sed scelerisque sodales lorem",
+    "avatar":[
+      {
+        "texticons": "Stet clita kasd gubergren",
+        "url":"https://ucb2d8e84c4fb2f5033a94ebaa88.previews.dropboxusercontent.com/p/orig/ABV5VzjELBJ-_EHKHjbZv0cKCKMlOYDH_YQG97d3AhlxfQ9r75cQ8_LbP6G6Fq97m6OGHwuFkhqQURpkFJkTcZie1VNqfm-SbBLoMUGnulkiecrJjkoUQXNWdv2J8MqGw5hT7nYNoQZrI2oDXKx59Qv2hlNKDumPCnGkZoABQhU-6Z7c-E8k4KuFL0LcvjGpAzjLsdU3IYpPoUYAYJfVUCaPw9O6nxpDHgd7FDTi9wTtGWqR1q7j2d_ElANQKKdh0qOiMQUB21MR8jAC9Hzp7yIHjj8B20AK4sxrvp38NNhC9EdmJk6STpQaCL993iIn1zmiH0T5xeyNUIIgRArmtRHmiGTVJ89dl7lmhZHa7V1XCYohDhHhhgGY7ZsQu8LB9K2KeH6ENi2ksRij1VycPnoL/p.svg?fv_content=true&size_mode=5"
+      },
+      {
+        "texticons":"At vero eos et accusam",
+        "url":"https://ucfd9d4f59b142e171137477ab4d.previews.dropboxusercontent.com/p/orig/ABX2yWP2mKsHT5srcissq2CMC7_aHNgmfJY2tSRBi6oqk-7e6yWs1n5gj3hc82bGkQf50-ev6SMgrPZ73Afnv_6gMqm_Mx2QGz_8WO1YJpYPGKn4ZIGqUdN8zvjuu1F_b_jHDbF7ME0VkzpX36YPQLI0kAVaH-migGNC4PWPsQgefiVhI_CjJYpBhQE_NBsPwI7qBgzLrkQvjZQ9d78xQtC4WHdruNPxH0mqe__wHFJ-XrTVBGRHgH2dcfXlXOky2XmI2-UPLX1a38F7GrTUEMYUP_4_B51c6Ma784rvq5HqHycPginuMcJChwiefkDpTutiaVPBgBc4I-QikrT-DE4L7482UbscH8I_u2Hx-N6Z-DMjOhShl8q2hKP64iZAZ6W3MfegJFydXOUjS9vP1J5Y/p.svg?fv_content=true&size_mode=5"
+      },
+      {
+        "texticons":"Sed ut perspiciatis unde",
+        "url":"https://uc958b9a4026ebde3244a77af543.previews.dropboxusercontent.com/p/orig/ABWchVaAcMI2Iu8zB0x-qZq6-FD3Ia3cD60ygmvgVdZJWtx_po6PJElPv6YOqjtQl5JwNZrer7UXIHf2fbby9jXnvx_k7BQKGFubUUJ72_X_FCrrGKa1o4RPhHUzxim-j7QrffREEre7DJHOaIBqbphjpxa1bVtaDY-ECTfo3EwTxPswiWv2kFNUpHZIOy17RexT3jb1hIWW5iOFRu0Pn7b_x6nWSl6mTMHTIY2hkU7vhzJwF4hHPr8Yzm8uopJoBsodvgORJp9LB-f5jkVMVTivsIkvov2i0D9X13PB1qHq73KymSNhJY8Zant7sZyiQp5kD488cMMYp8II2wjJjlip5A73WTwe1eIqLurGI4lF8TZS08KxGj2iKgJZkjt_WgReWfZO_Js8UYehFnBXY7Kr/p.svg?fv_content=true&size_mode=5"
+      },
+      {
+        "texticons":"Lorem impsum dolor sit amet",
+        "url":"https://uc90dc2143c40b12b74fbb6ef6b1.previews.dropboxusercontent.com/p/orig/ABUJeTPc9dqt4FF-Arv8Ovqs2OmL8PHWGw_mCCjl5MCwos9CXDU-IatCMJpto8BCTlR-sMkiOug7xMIwDQ-Pa2OKF0643xeGuFqGq5pSzdPb3dH2rCjJDMkcWVEOJmvOIyFoNBfR6hu47_HghPF69bgb-Tm2RWAf0Jq1PxHvBbyV_guiR58lLUgNnoTWe851pFSNDZQFo3nc2YR3eTyRcVIjIrNJZjNUuCqSpT7cR6j8T3AsUEJ3YwlsvApXoKk2_OBSq3O9PcDG0qWydNcOsFQgwUenI_Ci9So5yT6JReeJjYA4A7gkHTz9mumDRgGdkiFHasC-RaXif5J-RsbpUU3GUUdy0Ews_1LbHLEVOckamo-RDC2NmKxMGg3zw9yWZ3eQGAwe3n6DGECAr-tj8oDR/p.svg?fv_content=true&size_mode=5"
+      }
+
+
+    ]
+   }
+  
+  
   }
-}

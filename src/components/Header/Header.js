@@ -17,7 +17,6 @@ export const Header = () => {
         try {
             const responce = await axios.get("http://localhost:5000/slider")
             setData(responce.data);
-            console.log(responce.data);
         } catch (error) {
             console.log(error);
         }

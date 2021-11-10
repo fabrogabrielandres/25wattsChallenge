@@ -11,6 +11,7 @@ export const DetailsWrapper = styled.div`
         margin:103px auto 17px auto;
     }
     h2{
+        text-align: center;
         margin: 0px 299px 64px 299px;
         font-family: var(--unnamed-font-family-roboto);
         font-style: var(--unnamed-font-style-normal);

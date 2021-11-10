@@ -1,7 +1,8 @@
 import React from 'react'
+import { AboutUs } from '../About/AboutUs'
 import { Header } from '../Header/Header'
 import { NavBar } from '../NavBar/NavBar'
-import { GridLayout, HeaderLayout, LayoutContainer } from './styles'
+import { AboutUsLayout, GridLayout, HeaderLayout, LayoutContainer } from './styles'
 
 export const Layout = () => {
     return (
@@ -9,8 +10,11 @@ export const Layout = () => {
             <LayoutContainer>
                 <GridLayout>
                     <HeaderLayout>
-                        <Header />
+                        <Header/>
                     </HeaderLayout>
+                    <AboutUsLayout>
+                        <AboutUs/>
+                    </AboutUsLayout>                    
                     <NavBar/>
                 </GridLayout>
             </LayoutContainer>

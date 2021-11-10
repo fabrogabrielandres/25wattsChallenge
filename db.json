@@ -16,13 +16,14 @@
       "url":"https://uc8e37efbad4d945f1270dc16d92.previews.dropboxusercontent.com/p/thumb/ABWABelzkdBvzCjLQ7oVIYp5WE4t0N-iQjJ87V52Edo0onso700WfrvleNyNpIgIVdlpH17poD0Ctt2Ekoe1932VgcCjOqqXLKZK8UElXu_Rf3dASNLi3eyC5tVqR6B4Hz7WAjzl7E5Kfb63qBcHuIqP8LhlwVceqG1w0I-tu3xDuQoTJ5kNMZEAZNVH2uU3HAKpil-ZXr1Ib8FTJkBfSN3eXhG-gvhucxU28Fa1t7JCUsZOkWxNiJ-mHEj0ikjrScwFvLHf5Pwfky_PCUmPFKLHvv4R0CT8RUWYgWRqdqFmMuCT31KSLGNnll9cUxnaC7e6IoaInw3hamZBfOBut2Vjyk6Nbv_UrZ10LH0eIc7sAt2e4Yeq2ax8fQR_g0rwvew/p.png"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+  "about": 
+    {  
+      "url":"https://uc3f75915c0bd388422ffdee6acf.previews.dropboxusercontent.com/p/thumb/ABUxARun5naF9xuopqI1Kn9touBuAPiTFEekT2zVCb59JIJRr67IcaHOnx_PCgnA-hDJUTkKgbEfasT6BXz1lJDY41fRCOGfaoGzgJUfkFnjZBurzXFJgN6VBNkFxJyoOk3Za3lGAVmHXwxVfNKOnqhi2WbYllWEeDVh1DlQIpSbM6wKPLDKRDGMs8Cpq-AMDxCjGwUm9806Jmntfhw266nkGAe68a_urZ-03l8TtE5F-FkHZNDMHdHcXnYjUOp2QjJ82skYsMLNzYa-sKTN_epEJe9AlgqPTluoJNMWV_kz_btxeFoMsDr-hLujWWOsbw-OtLKwrC5T1EgUE_ptVpL3oyzZVrCwYCsH0rlLxYeZ-kNRgf9yoKkutX7nQVUoFCKh6BpvQHeQfAdYhHePogif/p.png?fv_content=true&size_mode=5",
+      "title": "About us",
+      "subtitle":"We Help Businesses",
+      "paragraph": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
     }
-  ],
+  ,
   "profile": {
     "name": "typicode"
   }

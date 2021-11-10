@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    max-height: 504px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -77,6 +76,7 @@ width: 50%;
     }
     @media (max-width:450px){
         width: 100%;
+        max-height: 1000px;
         h1, h2, h3{
             margin: 10px 10px;
             text-align: center;

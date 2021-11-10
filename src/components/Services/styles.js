@@ -8,7 +8,6 @@ export const ServicesWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items:center;   
-    background-color:red ;
     
 `
 
@@ -29,6 +28,9 @@ export const TitleService = styled.div`
 `
 export const SubTitleService = styled.div`    
     margin: 17px 295px;
+    @media (max-width:1100px){
+        margin: 17px 50px;
+    }
     h2{
        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-roboto);
         letter-spacing: var(--unnamed-character-spacing-0-22);

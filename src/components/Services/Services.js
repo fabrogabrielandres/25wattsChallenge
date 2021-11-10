@@ -43,8 +43,8 @@ export const Services = () => {
                     {
                         data.avatar.map((dat, idx) => {
                             return (
-                                <CardService>
-                                        <img src={dat.url} key={idx} />
+                                <CardService key={idx}>
+                                        <img src={dat.url} alt=""/>
                                         <h1>{dat.texticons}</h1>
                                 </CardService>
                             )

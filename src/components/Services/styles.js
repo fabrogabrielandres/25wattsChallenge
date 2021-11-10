@@ -8,9 +8,8 @@ export const ServicesWrapper = styled.div`
     min-height: 552px;
     display: flex;
     flex-direction: column;
-    background-color:var(--unnamed-color-dce1da);
-    
-    `
+    background: #F2F4F1 0% 0% no-repeat padding-box;    
+`
 
 
 export const TitleService = styled.div`

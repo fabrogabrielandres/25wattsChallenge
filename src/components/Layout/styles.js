@@ -19,4 +19,8 @@ grid-template:
 "H" minmax(100vh,min(100vh,768px))
 "Ab" 672px/
 100%;
+
+
+
+
 `

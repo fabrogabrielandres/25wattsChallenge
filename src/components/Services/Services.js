@@ -1,63 +1,65 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { IconsService, ServicesWrapper, SubTitleService, TitleService } from './styles'
+import { CardService, IconsService, ServicesWrapper, SubTitleService, TitleService } from './styles'
 
 export const Services = () => {
 
-    const [data, setData] = useState({})
-    const { title, subtitle, avatar } = data
+    const [loading, setLoading] = useState(false);
+    const [data, setData] = useState([])
 
-
-    const fetch = async () => {
-        const responce = await axios.get("http://localhost:5000/service")
-        setData(responce.data);
-        console.log(responce.data.avatar[3].url)
+    const fetching = async () => {
+        try {
+            const responce = await axios.get("http://localhost:5000/service")
+            setData(responce.data);
+            setLoading(true)
+        } catch (error) {
+            console.log(error);
+        }
     }
 
+
     useEffect(() => {
-        fetch()
+        fetching()
     }, [])
 
+    if (loading) {
 
-    return (
-        <ServicesWrapper>
-            <TitleService>
-                <h1>
-                    {title}
-                </h1>
-            </TitleService>
-            <SubTitleService>
-                <h2>
-                    {subtitle}
-                </h2>
-            </SubTitleService>
-
-
-
-
-
-            <IconsService>
-                {
-                    avatar.map((avat) =>
-
-                        <div>
-                            <img src={avat.url} alt=""
-                                style={{
-                                    width: "120px",
-                                    height: "120px"
-                                }}
-                            />
-                        </div>
-                    )
-
-                }
-            </IconsService> 
+        return (
+            <>
+                <ServicesWrapper>
+                    <TitleService>
+                        <h1>
+                            {data.title}
+                        </h1>
+                    </TitleService>
+                    <SubTitleService>
+                        <h2>
+                            {data.subtitle}
+                        </h2>
+                    </SubTitleService>
 
 
+                    <IconsService>
+                    {
+                        data.avatar.map((dat, idx) => {
+                            return (
+                                <CardService>
+                                        <img src={dat.url} key={idx} />
+                                        <h1>{dat.texticons}</h1>
+                                </CardService>
+                            )
+                        })
+                    }
+                    </IconsService>
+                </ServicesWrapper>
 
+            </>
+        )
 
+    } else {
+        return (
+            <p>cargando.......</p>
+        )
+    }
 
-
-        </ServicesWrapper>
-    )
 }

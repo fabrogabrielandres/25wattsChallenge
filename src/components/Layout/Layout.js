@@ -1,5 +1,6 @@
 import React from 'react'
 import { AboutUs } from '../About/AboutUs'
+import { Details } from '../Details/Details'
 import { Header } from '../Header/Header'
 import { NavBar } from '../NavBar/NavBar'
 import { Products } from '../Products/Products'
@@ -10,20 +11,14 @@ export const Layout = () => {
     return (
         <>
             <LayoutContainer>
-                {/* <GridLayout> */}
-                    {/* <HeaderLayout> */}
                         <Header />
-                    {/* </HeaderLayout> */}
-                    {/* <AboutUsLayout> */}
                         <AboutUs />
-                    {/* </AboutUsLayout> */}
-                    {/* <ServicesLayout> */}
                         <Services />
-                    {/* </ServicesLayout> */}
                         <Products/>
+                        <Details/>
 
                     <NavBar />
-                {/* </GridLayout> */}
+                
             </LayoutContainer>
         </>
     )

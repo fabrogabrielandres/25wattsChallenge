@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 
 export const ProductsWrapper = styled.div`
+    min-height: 752px;
     display: flex;
     flex-direction: column;
     background: #DCE1DA 0% 0% no-repeat padding-box;

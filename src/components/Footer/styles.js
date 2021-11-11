@@ -34,8 +34,9 @@ export const FooterMid = styled.div`
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    height: 100%;
+    justify-content: center;
+    max-height: 90px;
+    margin-top: 50px;
    
     p{
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
@@ -45,14 +46,16 @@ export const FooterMid = styled.div`
         letter-spacing: 0px;
         color: #DCE1DA;
         opacity: 1;
-        margin-top: 50px;
         margin-right:72px ;
+        margin-bottom: 11px;
     }
     
     @media (max-width:750px){
         width: 100%;
         flex-direction: row;
         justify-content: space-around;
+        margin-top: 0px;
+
         p{
             margin-top: 0;
         }

@@ -4,6 +4,7 @@ import { HeaderTitle, HeaderWrapper,HeaderSubTitle } from './styles'
 import { Carousel } from 'react-responsive-carousel'
 import axios from 'axios'
 import "./slide.css"
+import { Button } from '../Button/Button'
 
 export const Header = () => {
 
@@ -36,7 +37,11 @@ export const Header = () => {
                             </HeaderTitle>
                             <HeaderSubTitle>
                                 <span>{dat.subtitle}</span>
-                            </HeaderSubTitle>                             
+                                <Button
+                                style={{marginTop: "58px"}}
+                                >Read More</Button>
+                            </HeaderSubTitle>   
+                                                   
                         </HeaderWrapper>
                     )
                 })

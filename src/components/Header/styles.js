@@ -33,7 +33,7 @@ export const HeaderSubTitle = styled.div`
     text-align: left;
     span{
         font-size: 1.2rem;
-        color: white;        
+        color: white;
         @media (max-width:594px){
          font-size:0.7rem;
          margin-right:4rem;

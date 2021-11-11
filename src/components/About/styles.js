@@ -21,17 +21,14 @@ border-left: 24px solid var(--unnamed-color-e0752f);
     }
     @media (max-width:950px){
         img{
-            margin: 0px center;
             max-width: 280px;
             width: 100%;
-
         }
     }
     @media (max-width:450px){
         img{
             margin: 0;            
             max-width: 250px;
-            width: 100%;
         }
     }
 `
@@ -66,7 +63,13 @@ width: 50%;
         letter-spacing: 0.22px;
         color: #343434;
         opacity: 1;
+        margin-bottom: 44px;
     }
+
+    button{
+        
+    }
+
     @media (max-width:1200px){
         width: 100%;
         h1, h2, h3{
@@ -74,14 +77,7 @@ width: 50%;
             text-align: center;
         }
     }
-    @media (max-width:450px){
-        width: 100%;
-        max-height: 1000px;
-        h1, h2, h3{
-            margin: 10px 10px;
-            text-align: center;
-        }
-    }
+    
 `
 
 

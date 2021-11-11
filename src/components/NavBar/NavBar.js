@@ -3,6 +3,7 @@ import { Button, NavLeft, NavRight, NavWrapper } from './styles'
 import { ReactComponent as Logo } from '../../assets/logo_25w.svg';
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll"
+import hamburguesaMenu from "../../assets/hamburguesa.png"
 
 export const NavBar = () => {
     const [positionY, setPositionY] = useState(0)
@@ -32,7 +33,7 @@ export const NavBar = () => {
             <Button
                 onClick={changeHiden}
             >
-                hola
+                <img src={hamburguesaMenu} alt="" style={{width:"25px"}}/>
             </Button>
             <NavRight scroll={positionY}>
                 <ul>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { ContacAvatar, ContactWrapper, ContainerForm } from './styles'
 import { useFormik } from 'formik';
+import { Button } from '../Button/Button';
 
 
 export const Contact = () => {
@@ -44,8 +45,11 @@ export const Contact = () => {
                     onChange={formik.handleChange}
                     value={formik.values.message}
                 />
-
-                <button type="submit">Submit</button>
+                <Button
+                    type="submit"
+                >
+                    Submit
+                </Button>
             </ContainerForm>
 
         </ContactWrapper>

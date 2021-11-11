@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { Button } from '../Button/Button'
 import { AboutDescription, AboutImage, AboutWrapper, Container } from './styles'
 
 export const AboutUs = () => {
@@ -25,6 +26,11 @@ export const AboutUs = () => {
                     <h1>{title}</h1>
                     <h2>{subtitle}</h2>
                     <h3>{paragraph}</h3>
+                    <Button
+                    onClick={()=>alert("More Info")}
+                    >
+                        More Info
+                    </Button>
                 </AboutDescription>
             </Container>
 

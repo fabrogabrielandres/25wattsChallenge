@@ -1,46 +1,53 @@
 import React from 'react'
-import { ContacAvatar, ContactWrapper } from './styles'
+import { ContacAvatar, ContactWrapper, ContainerForm } from './styles'
+import { useFormik } from 'formik';
+
 
 export const Contact = () => {
+
+    const formik = useFormik({
+        initialValues: {
+            email: '',
+        },
+        onSubmit: values => {
+            alert(JSON.stringify(values, null, 2));
+        },
+    });
+
+
     return (
         <ContactWrapper>
             <p>Get in touch</p>
             <p>We are hiring</p>
 
-            <div>
-                <h1>Sign Up</h1>
-                <Formik
-                    initialValues={{
-                        firstName: '',
-                        lastName: '',
-                        email: '',
-                    }}
-                    onSubmit={async (values) => {
-                        await new Promise((r) => setTimeout(r, 500));
-                        alert(JSON.stringify(values, null, 2));
-                    }}
-                >
-                    <Form>
-                        <label htmlFor="firstName">First Name</label>
-                        <Field id="firstName" name="firstName" placeholder="Jane" />
+            <ContainerForm onSubmit={formik.handleSubmit}>
+                <input id="Name" name="Name" placeholder="Name"
+                    onChange={formik.handleChange}
+                    value={formik.values.Name}
+                />
 
-                        <label htmlFor="lastName">Last Name</label>
-                        <Field id="lastName" name="lastName" placeholder="Doe" />
+                <input
+                    id="email"
+                    name="email"
+                    placeholder="info@25watts.com.ar"
+                    type="email"
+                    onChange={formik.handleChange}
+                    value={formik.values.email}
+                />
 
-                        <label htmlFor="email">Email</label>
-                        <Field
-                            id="email"
-                            name="email"
-                            placeholder="jane@acme.com"
-                            type="email"
-                        />
-                        <button type="submit">Submit</button>
-                    </Form>
-                </Formik>
-            </div>
+                <input id="number" type="number" name="number" placeholder="Phone"
+                    onChange={formik.handleChange}
+                    value={formik.values.number}
+                />
 
-            <ContacAvatar>
-            </ContacAvatar>
+                <input id="message" name="message" placeholder="message"
+                    onChange={formik.handleChange}
+                    value={formik.values.message}
+                />
+
+                <button type="submit">Submit</button>
+            </ContainerForm>
+
         </ContactWrapper>
     )
 }

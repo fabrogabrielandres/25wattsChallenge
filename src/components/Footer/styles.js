@@ -28,6 +28,11 @@ export const FooterLeft = styled.div`
         color: #E0752F;
         opacity: 1;
     }
+    @media (max-width:750px){
+    img{
+        display: none;
+    }
+    }
     
 `
 export const FooterMid = styled.div`

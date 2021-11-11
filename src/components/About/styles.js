@@ -15,6 +15,7 @@ export const AboutWrapper = styled.div`
 `
 export const AboutImage = styled.div`
 border-left: 24px solid var(--unnamed-color-e0752f);
+margin-bottom: 80px;
     img{
         margin-left: 195px;
         max-width: 376px;

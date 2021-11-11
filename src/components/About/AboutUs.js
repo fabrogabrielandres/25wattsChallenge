@@ -16,7 +16,7 @@ export const AboutUs = () => {
     const {url,paragraph,subtitle,title} = data;
 
     return (
-        <AboutWrapper>
+        <AboutWrapper id="About">
             <Container>
                 <AboutImage>
                     <img src={url} alt=""/>

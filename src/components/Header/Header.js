@@ -22,11 +22,12 @@ export const Header = () => {
         }
     }
     return (
-        <Carousel className="main-slide" showThumbs={false}>
+        <Carousel className="main-slide" showThumbs={false} >
             {
                 data.map((dat, idx) => {
                     return (
                         <HeaderWrapper
+                            id="Header"
                             key={idx}
                             imageBackground={dat.url}
                         >

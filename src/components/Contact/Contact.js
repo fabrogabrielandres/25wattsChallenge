@@ -16,7 +16,7 @@ export const Contact = () => {
 
 
     return (
-        <ContactWrapper>
+        <ContactWrapper id="Contact">
             <p>Get in touch</p>
             <p>We are hiring</p>
 

@@ -22,13 +22,13 @@ export const Details = () => {
 
     if (loading) {
         return (
-            <DetailsWrapper>
+            <DetailsWrapper id="Details">
                 <h1>More details</h1>
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida felis, id tempor ex. Suspendisse congue purus eu neque auctor, eget dictum ipsum facilisis. Sed scelerisque sodales lorem,</h2>
                 <ContinerCards>
                     {
                         data.map((item, idx) => 
-                            <DetailsCard>
+                            <DetailsCard key={idx}>
                                 <img src={item.url} alt=""/>
                                 <p>{item.title}</p>
                             </DetailsCard>

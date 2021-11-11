@@ -35,7 +35,7 @@ export const Products = () => {
 
     if (loading) {
         return(
-            <ProductsWrapper>
+            <ProductsWrapper id="Products">
                 <h1>Products</h1>
                 <h2>In eget tortor tempor mallis purus</h2>
                 <Carousel breakPoints={breakPoints} pagination={false}

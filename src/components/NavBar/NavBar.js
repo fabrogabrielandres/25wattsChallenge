@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Button, NavLeft, NavRight, NavWrapper } from './styles'
 import { ReactComponent as Logo } from '../../assets/logo_25w.svg';
+import { Link } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll"
 
 export const NavBar = () => {
     const [positionY, setPositionY] = useState(0)
@@ -22,10 +24,10 @@ export const NavBar = () => {
 
     return (
         <NavWrapper scroll={positionY}
-        toggle={toggle}
+            toggle={toggle}
         >
             <NavLeft scroll={positionY}>
-                <Logo fill="#ffffff" stroke="#ffffff" />
+                <Logo fill="#ffffff" stroke="#ffffff"  onClick={()=>scroll.scrollToTop()}/>
             </NavLeft>
             <Button
                 onClick={changeHiden}
@@ -35,22 +37,40 @@ export const NavBar = () => {
             <NavRight scroll={positionY}>
                 <ul>
                     <li>
-                        Home
+                        <Link to="Header" smooth={true} duration={1000}>
+                            Home
+                        </Link>
+
                     </li>
                     <li>
-                        About us
+                        <Link to="About" smooth={true} duration={1000}>
+                            About us
+                        </Link>
+
                     </li>
                     <li>
-                        Services
+                        <Link to="Services" smooth={true} duration={1000}>
+                            Services
+                        </Link>
+
                     </li>
                     <li>
-                        Products
+                        <Link to="Products" smooth={true} duration={1000}>
+                            Products
+                        </Link>
+
                     </li>
                     <li>
-                        Details
+                        <Link to="Details" smooth={true} duration={1000}>
+                            Details
+                        </Link>
+
                     </li>
                     <li>
-                        Contact
+                        <Link to="Contact" smooth={true} duration={1000}>
+                            Contact
+                        </Link>
+
                     </li>
                 </ul>
 

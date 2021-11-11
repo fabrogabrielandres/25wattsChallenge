@@ -5,8 +5,20 @@ import image from "../../assets/image.png"
 export const ContactWrapper = styled.div`
     width: 100%;
     min-height: 768px;
-    height: 100%;
-    background-image: linear-gradient(to right,#F2F4F1 70%,#DCE1DA 30%);
+    
+    background-image: url(${image}), linear-gradient(to right,#F2F4F1 70%,#DCE1DA 30%);
+    
+    background-repeat: no-repeat;
+    background-position:70% 50%;
+    @media (max-width:900px){
+        background-size:  0px 0px;
+
+    }
+    @media (max-width:700px){
+        background-size:  0px 0px;
+    }
+    
+
     
     p{  
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-39)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-poppins);
@@ -37,7 +49,6 @@ export const ContainerForm = styled.form`
         letter-spacing: var(--unnamed-character-spacing-0-22);
         color: var(--unnamed-color-5f6368);
         text-align: left;
-        font: normal normal medium 16px/21px Roboto;
         letter-spacing: 0.22px;
         color: #5F6368;
         opacity: 1;
